@@ -1,0 +1,21 @@
+{
+  "fit_id": "b8059a2d7c4313c1e902",
+  "dataset": "cifar10",
+  "seed": 0,
+  "round": 0,
+  "label": "search_B",
+  "variant": "native",
+  "init_id": "native-body-1000026-head-2000004",
+  "mask_hash": "6c3df3c1b7e88950",
+  "dropout": true,
+  "theta0_file": "theta0_98b44cf0d8bfd52ba6a2.pt",
+  "dropout_p": 0.5,
+  "learning_rate": 0.0003,
+  "early_stopping_iteration": 5500,
+  "validation_loss_best": 0.6015998551368713,
+  "test_accuracy_best": 0.789,
+  "test_accuracy_final": 0.7987,
+  "fit_seconds": 866.946129322052,
+  "iterations": 25000,
+  "amp": false
+}

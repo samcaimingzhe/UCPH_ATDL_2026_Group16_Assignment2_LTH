@@ -1,0 +1,21 @@
+{
+  "fit_id": "8328ea4a1b7c9d979ce2",
+  "dataset": "cifar10",
+  "seed": 0,
+  "round": -1,
+  "label": "pilot",
+  "variant": "pilot",
+  "init_id": "pilot-init",
+  "mask_hash": "6c3df3c1b7e88950",
+  "dropout": false,
+  "theta0_file": "theta0_98b44cf0d8bfd52ba6a2.pt",
+  "dropout_p": 0.0,
+  "learning_rate": 0.0003,
+  "early_stopping_iteration": 200,
+  "validation_loss_best": 1.52976723651886,
+  "test_accuracy_best": 0.4514,
+  "test_accuracy_final": 0.4514,
+  "fit_seconds": 62.155181646347046,
+  "iterations": 200,
+  "amp": false
+}

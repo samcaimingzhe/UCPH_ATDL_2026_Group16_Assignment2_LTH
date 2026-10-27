@@ -1,0 +1,63 @@
+{
+  "quick": false,
+  "synthetic_smoke": false,
+  "architecture": "conv4",
+  "datasets": [
+    "cifar10",
+    "cifar100",
+    "svhn"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "dropout_p": 0.5,
+  "conv_dropout": false,
+  "iterations": 25000,
+  "batch_size": 60,
+  "eval_every": 500,
+  "lr_by_condition": {
+    "A": 0.0003,
+    "B": 0.0003,
+    "C": 0.0003,
+    "D": 0.0003
+  },
+  "rounds": 15,
+  "conv_prune_fraction": 0.1,
+  "fc_prune_fraction": 0.2,
+  "head_prune_fraction": 0.1,
+  "controls": true,
+  "transfer": true,
+  "validation_size": 5000,
+  "data_dir": "/home/vpm582/cifar10",
+  "output_dir": "results_dropout_cnn",
+  "download": true,
+  "num_workers": 2,
+  "pin_memory": true,
+  "amp": false,
+  "checkpoint_every": 2000,
+  "benchmark_iterations": 200,
+  "train_limit": null,
+  "validation_limit": null,
+  "test_limit": null,
+  "quick_settings": {
+    "architecture": "conv2",
+    "seeds": [
+      0
+    ],
+    "rounds": 1,
+    "iterations": 4,
+    "eval_every": 2,
+    "batch_size": 4,
+    "validation_size": 20,
+    "num_workers": 0,
+    "controls": false,
+    "transfer": true,
+    "checkpoint_every": 0,
+    "train_limit": 40,
+    "validation_limit": 12,
+    "test_limit": 12,
+    "benchmark_iterations": 2
+  }
+}
